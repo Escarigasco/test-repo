@@ -9,4 +9,6 @@ node {
 	    string(defaultValue: 'John Snow', description: 'who dies', name: 'NAME')
 	]
     ])
+
+   ...
 }
