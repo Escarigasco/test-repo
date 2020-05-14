@@ -1,8 +1,8 @@
 node {
     properties([
-    parameters: [ 
+    parameters([ 
 	    string(defaultValue: 'John Snow', description: 'who dies', name: 'NAME')
-	]
+	])
     ])
 
 }
