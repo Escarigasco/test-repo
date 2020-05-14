@@ -5,6 +5,6 @@ node {
 	])
     ])
 
-    "${env. NAME}"
+    echo "${env. NAME}"
 
 }
