@@ -1,10 +1,1 @@
-node {
-    properties([
-    parameters([ 
-	    string(defaultValue: 'John Snow', description: 'who dies', name: 'NAME')
-	])
-    ])
-
-    echo "${env. NAME}"
-
-}
+pipeline {     agent any          stages {         stage("hi") {             steps {                 echo 'hello'             }         }     } } 
